@@ -7,7 +7,7 @@ const Smartphones = () => {
     const [smartphones, setSmartphones] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
-    console.log(smartphones);
+
 
     useEffect(() => {
         const getDataSmartphones = async () => {
