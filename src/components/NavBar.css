@@ -1,0 +1,35 @@
+/* NavBar.css */
+
+nav {
+    background-color: #9487c6;
+    padding: 10px;
+    
+
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #2f0d71;
+  }
+  
+  
+  
+  
